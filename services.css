@@ -13,7 +13,7 @@ box-sizing: border-box;
 --padding-inline-section:20px;
 }
 body{
-background: #ffffff;
+background:linear-gradient(to top, #450835, #2d0253);
 font-family: 'Poppins',sans-serif;
 color: var(--primary-text-color);
 }
