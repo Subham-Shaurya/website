@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <script src="https://kit.fontawesome.com/1dc055f0a8.js" crossorigin="anonymous"></script>
+  <script src="paymentjs.js"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .outer-box{
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(to top right, #1f1b5c,#130f4a);
+    }
+    .inner-box{
+      width: 70%;
+      height: 32pc;
+      border: none;
+      border-radius: 15px;
+      position: absolute;
+      left: 15%;
+      transform: translateY(10%);
+      display: inline-flex;
+      box-shadow: 0 2px 5px 0.5px #030b97;
+      overflow: hidden;
+    }
+    .box1{
+      width: 60%;
+      height: 100%;
+      background: linear-gradient(to bottom, #0033ea,rgb(23, 7, 117));
+      color: #fff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      overflow: hidden;
+    }
+    .content{
+      position: relative;
+      left: 20%;
+      top: 35%;
+      font-weight: 500;
+    }
+    .content h1{
+      font-size: 1.7rem;
+      padding: 10px 0 12px 0;
+    }
+    .content p{
+      font-size: 0.9rem;
+      padding: 0 0 9px 0;
+    }
+    .content button{
+      color: #ffffff;
+      background-color: rgb(0, 55, 255);
+      padding: 8px 15px 8px 15px;
+      border: none;
+      border-radius: 19px;
+    }
+    button:hover{
+      background-color: #ffffff;
+      color: #0033ea;
+    }
+    .box2{
+      width: 40%;
+      height: 100%;
+      display: block;
+      background-color: #fff;
+      padding: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .box2 h1, p{
+      position: relative;
+      top: 20%;
+    }
+    .box2 h1{
+      font-size: 1.7rem;
+      color: #1f1f20;
+    }
+    .box2 p{
+      font-size: 0.8rem;
+      color: #555;
+      padding: 8px;
+    }
+    .box2 input{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      border: 0.1rem solid rgb(241, 241, 241);
+      border-radius: 20px;
+      position: relative;
+      top: 30%;
+    }
+    .box2 input:hover{
+      border: 2px solid #7b94ed;
+    }
+    .box2 .submit{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 20px;
+      position: relative;
+      top: 30%;
+      border: none;
+      background-color: rgb(19, 50, 255);
+      color: #ffffff;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .box2 .submit:hover{
+      background-color: #06279f;
+    }
+    .circle{
+      position: relative;
+      width: 360px;
+      height: 360px;
+      border-radius: 350px;
+      border: 1.5px solid #224ff1;
+    }
+    .c1{
+      bottom: -240px;
+      left: -100px;
+      
+    }
+    .c2{
+      bottom: 150px;
+      left: -150px;
+    }
+    .icon{
+      position: relative;
+      top: 150px;
+      word-spacing: 2rem;
+      text-align: center;
+    }
+    .icon i{
+      font-size: 1.2rem;
+    }
+    .icon i:hover{
+      font-size: 1.3rem;
+      color: #3e63e9;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div class="inner-box">
+      <div class="box1">
+        <div class="content">
+        <h1>BlueStone</h1>
+        <p>The most popular and trusted designer team</p>
+        <a href="index.html"><button>Know More</button></a>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+      </div>
+      <div class="box2">
+        <h1>Get in touch</h1>
+        <p>We will get back to you within 24 hours</p>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="tel" name="phone" id="phone" maxlength="10" required placeholder="Phone Number">
+        <button class="submit" onclick="abc()">Submit</button>
+        <p class="icon">
+          <abbr title="selfsubhamraj@gmail.com"><i class="fa-solid fa-envelope"></i></abbr>
+          <abbr title="+91 9771072294"><i class="fa-solid fa-phone"></i></abbr>
+          <abbr title="@subhamraj05"><i class="fa-brands fa-instagram"></i></abbr>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

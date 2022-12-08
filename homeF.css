@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    background: fixed;
+}
+/*body{
+    background-color:rgb(252, 247, 240);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}*/
+.container{
+    background-color: #fff;
+}
+header{
+    display: block;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    background-color: rgb(9, 82, 239);
+    height: 170px;
+    width: 100%;
+    /*margin-top: 10px;*/
+    border-radius: 2px;
+    box-shadow: 0 5px 30px rgba(34, 29, 65, 0.945);
+}
+h1{
+    font-family:monospace;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+}
+a{
+    display: inline;
+    float: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 4px;
+}
+a:hover{
+    color: black;
+    background:white;
+}
+.poster{
+    display:block;
+    background-color: rgb(250, 253, 255);
+    background-image: url("cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 5px;
+    height: 200px;
+    margin-top: 5px;
+    text-align: center;
+    /*box-shadow: 0px 5px 200px rgb(74, 71, 68);*/
+}
+.poster h2{
+    font-size: 40px;
+    margin-top: 70px;
+    font-family: "Lucida Handwriting", monospace;
+    color: rgb(69, 62, 94);
+}
+
+i{
+    display: inline-block;
+    margin-right: 1em;
+}
+.service{
+    text-align: center;
+    display: block;
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    width: 100%;
+    height: 33pc;
+    box-shadow: 0px 5px 0px 0.540px rgb(172, 178, 181);
+}
+.service1{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 5px 4px rgb(206, 198, 198);
+    width: 26%;
+    height: 30pc;
+    padding: 7px;
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: start;
+    transition: width 0.5s, height 0.5s;
+}
+.service1:hover {
+    width: 28%;
+    height: 32pc;
+}
+.package{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: inline;
+    box-shadow: 0 2px 400px rgb(104, 104, 94);
+}
+.price{
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.booking{
+    text-decoration: none;
+    color:blue ;
+    background: white;
+    border: 2px solid(blue);
+    padding: 10px 15px 8px 7px;
+}
+.booking:hover{
+    color: #fff;
+    background-color: blue;
+}
+.projects{
+    width: 100%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    box-shadow: 0px 1px 10px 0.940px rgb(69, 62, 94);
+}
+.pr_head{
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: blue;
+    font-family:monospace;
+    font-style: italic;
+    text-align: center;
+}
+#idmg1{
+    width: 30%;
+    margin: 7px;
+}
+#idmg2{
+    width: 30%;
+    margin: 7px;
+}
+#idmg3{
+    width: 30%;
+    height: 468px;
+    margin: 7px;
+}
+#idmg4{
+    width: 30%;
+    margin: 7px;
+}
+#idmg5{
+    width: 30%;
+    margin: 7px;
+}
+#idmg6{
+    width: 30%;
+    margin: 7px;
+}
+.about{
+    padding: 5pc 8pc 5pc 8pc;
+    width: 100%;
+    text-align:left;
+    background:-moz-linear-gradient(red);
+}
+.about h2{
+    padding: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 1px;
+    width: 180px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(232, 144, 144);
+}
+.about span{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+}
+.about .text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 1.3em; 
+    color: rgb(61, 63, 83); 
+    font-size: 1rem; 
+    font-weight: 200;
+    word-spacing: 0.3em;
+
+}
+#contact{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 38pc;
+    margin-top: 50px;
+}
+.contact{
+    display: block;
+    padding: 20px;
+    font-family: merriweather,serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image: url("idmg7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(255, 254, 254,0.9);
+    border: none;
+    border-bottom: black;
+    box-shadow: 2px 3px 10px rgba(138, 138, 167, 0.945);
+}
+.letstalk{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: rgb(28, 79, 232);
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+}
+#data{
+    display: block;
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(28, 18, 65, 0.750);
+    background: transparent;
+    background-color: none;
+    outline: none;
+    height: 50px;
+}
+input[type="submit"]{
+    display: block;
+    /*border: none;*/
+    width: 26%;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 38px;
+    margin-left: 30%;
+    /*margin-right: 20%;*/
+    /*background: transparent;*/
+    /*background-color: none;*/
+    height: 45px;
+    color: rgb(254, 254, 255);
+    border: none;
+    background-color: rgb(148, 23, 117);
+    box-shadow: 0 5px 900px rgb(87, 66, 46);
+    border-radius: 5px;
+    cursor:pointer;
+}
+#submit:hover{
+    background-color: rgb(119, 6, 119);
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(218, 206, 247);
+    margin-top: 100px;
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: monospace;
+}
+.fa-brands{
+    margin: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    position: absolute;
+}
